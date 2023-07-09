@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(177, 177, 247);
+    font-size: 1.05rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 140px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+.leftsection .buttons{
+    padding: 13px 0;
+}
+.leftsection .btn{
+    font-size: 20px;
+    padding: 11px 16px;
+    background-color: #443b94;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.purple{
+    color:rgb(174, 112, 232);
+}
+#element{
+    color: rgb(174, 112, 232);
+}
+.rightsection img{
+    width: 80%;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 500px;
+}
+.secondsection h1{
+    padding: 23px;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 100px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 50px;
+    position: relative;
+    top: -64px;
+    left: -17px;
+}
+.vertical-title{
+    position: relative;
+    top: 68px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 79px;
+    color: grey;
+    width: 150px;
+    font-size: 12px;
+}
+footer{
+    background-color:#1d1d36;
+    /* height: 150px; */
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 13px 100px;
+}
+.footer{
+    display: flex;
+    padding: 23px 100px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 200px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px;
+}
+
